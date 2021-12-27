@@ -5,6 +5,7 @@ import StubHello from "../Stub/StubHello";
 import StubMark from "../Stub/StubMark";
 import StubGreat from "../Stub/StubGreat";
 import Harness from "../Harness/Harness";
+import StubUpload from "../Stub/StubUpload";
 function App() {
 
   const menuRoutes = routes.getMenuRoutes();
@@ -28,6 +29,9 @@ function App() {
               </Route>
               <Route key="StubGreat" exact path="/b">
                 <StubGreat />
+              </Route>
+              <Route key="StubUpload" exact path="/c">
+                <StubUpload />
               </Route>
             </Switch> 
           </Harness>

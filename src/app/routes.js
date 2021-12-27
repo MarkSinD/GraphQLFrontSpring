@@ -47,7 +47,7 @@ export const routes = {
     }
   },
   feedbackList: {
-    path: "/b",
+    path: "/c",
     label: "Результаты опросов",
     component: StubHello,
     icon: <FormatListBulleted/>,
